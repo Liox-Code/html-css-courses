@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --ancho-ventana: 100vw;
+    --tamaño-fuente: 1.6rem;
+}
+
+header{
+    width: var(--ancho-ventana);
+    height: 10vh;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.barra-navegador{
+    width: 30%;
+    display: flex;
+}
+
+.barra-navegador__lista-navegacion{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.barra-navegador__item-lista{
+    font-size: var(--tamaño-fuente);
+    display: inline-block;
+}
+
+main{
+    width: var(--ancho-ventana);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    font-size: var(--tamaño-fuente);
+}
+
+.bloque-buscador{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.bloque-buscador__logo{
+    width: 80%;
+    margin: auto;
+}
+
+.bloque-buscador__imagen-logo{
+    width: 100%;
+}
+
+.bloque-buscador__contenedor-buscador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque-buscador__buscador{
+    width: 80%;
+    height: 3rem;
+}
+
+.bloque-buscador__contenedor-botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque-buscador__boton-estilo{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 2rem;
+    font-size: 2rem;
+    margin: 1rem 0.6rem;
+}
+
+footer{
+    width: var(--ancho-ventana);
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--tamaño-fuente);
+}
+
+.opciones-footer{
+    background-color: rgb(240, 240, 240);
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.texto{
+    padding: 1rem;
+}
+
+.contenedor-opciones{
+    justify-self: flex-end;
+}
+
+.izquierda{
+    width: 40%;
+}
+
+.derecha{
+    width: 30%;
+    justify-self: flex-end;
+}
+
+.opciones-footer__lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}

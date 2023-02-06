@@ -1,0 +1,52 @@
+:root{
+    --ancho-pagina: 100vw;
+    --alto-central: 80vh;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: royalblue;
+    width: var(--ancho-pagina);
+    height: 10vh;
+}
+
+main{
+    background-color: saddlebrown;
+    width: var(--ancho-pagina);
+    height: var(--alto-central);
+    display: flex;
+}
+
+aside{
+    background-color: tan;
+    width: 30vw;
+    height: var(--alto-central);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.barra-lateral__bloque-noticia{
+    background-color: chocolate;
+    width: 24vw;
+    height: 15vh;
+    margin: auto;
+}
+
+section{
+    background-color: cadetblue;
+    width: 70vw;
+    height: var(--alto-central);
+}
+
+footer{
+    background-color: seagreen;
+    width: var(--ancho-pagina);
+    height: 10vh;
+}

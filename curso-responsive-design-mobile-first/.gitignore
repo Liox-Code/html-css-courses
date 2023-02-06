@@ -1,0 +1,8 @@
+#imagenes
+/.vscode
+/assets/img
+/assets/icons
+*.jpg
+*.jpeg
+*.png
+*.svg

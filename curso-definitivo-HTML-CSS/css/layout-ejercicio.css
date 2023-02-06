@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: cornflowerblue;
+    height: 10vh;
+}
+.logo{
+    display: inline-block;
+}
+.opciones{
+    position: absolute;
+    display: inline-block;
+    right: 0
+}
+.nav-list{
+    list-style: none;
+    width: 30vw;
+}
+.nav-list li{
+    display: inline-block;
+}
+main{
+    background-color: gray;
+    width: 100vw;
+    height: 80vh;
+}
+aside{
+    background-color: rgb(50, 164, 192);
+    display: inline-block;
+    width: 34vw;
+}
+.comercial{
+    background-color: green;
+    width: 30vw;
+    height: 15vh;
+    margin: 4vh auto;
+}
+section{
+    position: absolute;
+    background-color: crimson;
+    display: inline-block;
+    height: 80vh;
+    width: 65vw;
+}
+footer{
+    background-color: darkorchid;
+    height: 10vh;
+}
+.informacion{
+    display: inline-block;
+}
+.redes-sociales{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 10vh;
+    background-color: #273b47;
+    color: #fff;
+}
+main{
+    height: 80vh;
+}
+section{
+    position: absolute;
+    width: 80vw;
+    padding: 1rem;
+    background-color: red;
+    display: inline-block;
+}
+
+aside{
+    display: inline-block;
+    height: 80vh;
+    width: 20vw;
+    background-color: green;
+}
+footer{
+    height: 10vh;
+    background-color: #273b47;
+    color: #fff;
+}
+figure{
+    margin: 1rem;
+}
+nav{
+    top: 1rem;
+    position: absolute;
+    right: 1.5rem;
+} */

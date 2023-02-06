@@ -1,0 +1,16 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box1, .box2{
+    width: 50%;
+}
+
+.box3, .box4{
+    width: 33%;
+}
+
+.box5{
+    width: 34%;
+}
